@@ -30,5 +30,4 @@ void	ft_win(t_map *map)
 	write(1, "\x1b[32;01m", 9);
 	write(1, "🏆🏆YOU WON!!🏆🏆\n", 27);
 	write(1, "\x1b[0m", 5);
-	print_movements(map);
 }

@@ -12,6 +12,19 @@
 
 #include "../inc/so_long.h"
 
+void	map_initializer(t_map *map, char **av)
+{
+	map->filename = av[1];
+	map->moves = 0;
+	map->e = 0;
+	map->c = 0;
+	map->p = 0;
+	map->y = 0;
+	map->player.y = 0;
+	map->player.x = 0;
+	map->exit = 0;
+}
+
 int	main(int ac, char **av)
 {
 	t_map	map;

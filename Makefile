@@ -51,8 +51,8 @@ INCLUDE		+= -I $(INC_BONUS)
 
 SL_SRCS	=		so_long.c check_valid_path.c checker.c end_screen.c \
 				errors.c file_to_image.c ft_free.c \
-				generate_map_array.c key_hook.c map_initializer.c \
-				map_printer.c movements.c print_movements.c \
+				generate_map_array.c key_hook.c\
+				map_printer.c movements.c \
 				
 SL_SRCS_BONUS	=	so_long_bonus.c animation_monster_bonus.c checker_bonus.c \
 					errors_bonus.c file_to_image_bonus.c ft_free_bonus.c \
