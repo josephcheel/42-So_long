@@ -29,8 +29,8 @@ CP			=	cp -f
 #•❅──────✧❅✦❅✧──────❅••❅──────✧❅✦❅DIRECTORIES✦❅✧──────❅••❅──────✧❅✦❅✧──────❅•#
 #●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●#
 
-MDT_DIR		=	Mandatory/
-BONUS_DIR	=	Bonus/
+MDT_DIR		=	mandatory/
+BONUS_DIR	=	bonus/
 
 SRC_DIR		=	src/
 OBJ_DIR		=	obj/
