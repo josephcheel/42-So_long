@@ -59,3 +59,16 @@ void	map_printer(t_map *map)
 		x++;
 	}
 }
+
+void	print_movements(t_map *map)
+{
+	char	*move;
+
+	move = ft_itoa(map->moves);
+	write(1, "\r", 1);
+	write(1, "\x1b[33;01m", 9);
+	write(1, move, ft_strlen(move));
+	write(1, "\x1b[0m", 5);
+	write(1, " movements", 11);
+	free(move);
+}

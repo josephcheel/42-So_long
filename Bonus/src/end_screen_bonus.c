@@ -44,3 +44,31 @@ void	ft_lose(t_map *map)
 	write(1, "👾👾YOU LOSE👾👾\n", 26);
 	write(1, "\x1b[0m", 5);
 }
+
+void	print_wall(t_map *map)
+{
+	int	x;
+	int	y;
+
+	x = 0;
+	y = 0;
+	while (y < map->y)
+	{
+		while (x < map->x)
+		{
+			mlx_put_image_to_window(map->mlx, map->wnd, map->img.wall,
+				x * IMG_PXL, y * IMG_PXL);
+			x++;
+		}
+		x = 0;
+		y++;
+	}
+	while (x <= map->x)
+	{
+		mlx_put_image_to_window(map->mlx, map->wnd, map->img.wall,
+			x * IMG_PXL, map->y * IMG_PXL);
+		mlx_put_image_to_window(map->mlx, map->wnd, map->img.wall,
+			x * IMG_PXL, map->y * IMG_PXL + IMG_PXL);
+		x++;
+	}
+}
