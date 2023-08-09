@@ -1,4 +1,4 @@
-<h1 align="center">So_long | 42</h1>
+<h1 align="center">So_long | 42 Cursus</h1>
 
 [//]: <> (### | A project involving the creation of a small 2D game using a graphical library.)
 > A project involving the creation of a ***small 2D game*** using a graphical library
