@@ -1,11 +1,10 @@
-<h1 align="center">So_long | 42 Cursus </h1>
-100 %<font color="red">Status: **Not yet implemented**</font>
-  <picture>
+<h1 align="center">So_long | 42 Cursus 
+ <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-      Markdown/main/blockquotes/badge/light-theme/complete.svg">
   <img alt="Complete" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/complete.svg">
   </picture>
-
-<img width="623" alt="Success" src="https://github.com/josephcheel/so_long/readme_resources/Success.png">
+</h1>
+<img width="300" alt="Success" src="readme_resources/Success.png"> |
 
 
 [//]: <> (### | A project involving the creation of a small 2D game using a graphical library.)
