@@ -21,8 +21,15 @@
 * Program should compile as follows:
  
 ```
-> ./so_long map 
+> ./so_long map.ber
+> ./so_long_bonus map.ber
 ```
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/warning.svg">
+>   <img alt="Warning" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/warning.svg">
+> </picture><br>
+>
+> Map must have the ***.ber*** extension
 
 ## Mandatory Instrucctions
 
