@@ -4,13 +4,26 @@
   <img alt="Complete" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/complete.svg">
   </picture>
 </h1>
-<img width="200" alt="Success" src="readme_resources/Success.png">
+
+> A project involving the creation of a ***small 2D game*** using a graphical library. Using MiniLibx, the 42 graphical library.
+
+ <img align="right" width="150" src="readme_resources/Success.png">
+ 
+### What is the the project about
+The project has two parts: the **mandatory** and the **bonus**.
+
+
+```
+
+```
+
+<h3> <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clfo781th000608l4lo1z8jb2/project/2664278" alt="jcheel-n's 42 so_long Score" /></a></h3>
+
 
 
 [//]: <> (### | A project involving the creation of a small 2D game using a graphical library.)
-> A project involving the creation of a ***small 2D game*** using a graphical library
-#### What is the the project about
-The project has two parts: the **mandatory** and the **bonus**.
+
+
 #### How it works
 
 #### How to use it
