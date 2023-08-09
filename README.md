@@ -7,6 +7,8 @@
 
 > A project involving the creation of a ***small 2D game*** using a graphical library. Using MiniLibX, the 42 graphical library.
 
+<img align="center" src="readme_resources/SoLongExample.gif">
+
  <img align="right" width="150" src="readme_resources/Success.png">
  
 ### What is the the project about
