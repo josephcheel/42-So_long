@@ -5,17 +5,42 @@
   </picture>
 </h1>
 
-> A project involving the creation of a ***small 2D game*** using a graphical library. Using MiniLibx, the 42 graphical library.
+> A project involving the creation of a ***small 2D game*** using a graphical library. Using MiniLibX, the 42 graphical library.
 
  <img align="right" width="150" src="readme_resources/Success.png">
  
 ### What is the the project about
-The project has two parts: the **mandatory** and the **bonus**.
 
+ This project is about creating a 2D game, which you can interact with your keyboard! The task has two parts: the **mandatory** and the **bonus**. Each of these parts is compiled and execute separately. The bonus has the same features plus some extra.
 
+## General Instrucctions
+
+* Makefile will compile your source files. Must have **'all'** and **'bonus'** rules for Mandatory and Bonus respectively. It must not relink.
+* Must use MiniLibX
+
+* Program should compile as follows:
+ 
+```
+> ./so_long map 
 ```
 
-```
+## Mandatory Instrucctions
+
+*
+*
+*
+*
+*
+
+
+## Bonus Instrucctions
+
+*
+*
+*
+
+
+
 
 <h3> <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clfo781th000608l4lo1z8jb2/project/2664278" alt="jcheel-n's 42 so_long Score" /></a></h3>
 
