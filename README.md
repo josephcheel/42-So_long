@@ -1,7 +1,6 @@
-# So_long 
-### It’s time for you to create a basic computer graphics project!
-> ***Summary:
-This project is a very small 2D game.
-Its purpose is to make you work with textures, sprites,
-and some other very basic gameplay elements.
-Version: 2.3
+<h1 align="center">So_long | 42</h1>
+
+[//]: <> (### | A project involving the creation of a small 2D game using a graphical library.)
+> *** A project involving the creation of a small 2D game using a graphical library. ***
+
+###### with textures, sprites, and some other very basic gameplay elements. Version: 2.3
