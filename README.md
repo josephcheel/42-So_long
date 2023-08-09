@@ -20,7 +20,7 @@
 
 * Program should compile as follows:
  
-```
+```shell
 > ./so_long map.ber
 > ./so_long_bonus map.ber
 ```
