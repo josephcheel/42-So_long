@@ -4,7 +4,7 @@
   <img alt="Complete" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/complete.svg">
   </picture>
 </h1>
-<img width="300" alt="Success" src="readme_resources/Success.png"> |
+<img width="300" alt="Success" src="readme_resources/Success.png">
 
 
 [//]: <> (### | A project involving the creation of a small 2D game using a graphical library.)
