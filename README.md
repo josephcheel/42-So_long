@@ -33,16 +33,17 @@
 ## Mandatory Instrucctions
 * Number of movements must be displayed in the shell.
 * ESC or [x] must close the window and quit the program.
+  
+<img align="right" width="150" src="readme_resources/FileMapExample.png">
+
 * The map has to be constructed with 3 components: **walls**, **collectibles**(one minimum), **empty space**, **exit**(one minimum) and **player**(only one). These are the 5 Characters that a map is composed:
   * **0** for an empty space
   * **1** for a wall
   * **C** for a collectible
   * **E** for a map exit
   * **P** for the player’s starting position
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/example.svg">
-  <img alt="Example" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/example.svg">
-</picture><br>
+
+<img align="right" width="200" src="readme_resources/wasd_keys.png">
 
 * <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys must be used to move the main character:
   * <kbd>W</kbd> to go up ↑
