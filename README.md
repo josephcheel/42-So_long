@@ -64,9 +64,16 @@
 * Display the movement count directly on screen instead of writing it in the shell.
  
 ### How to compile it
-> Compilation is done through makefile rules. 
+> Compilation is done through makefile rules.
+
+
+<div align="center">
+<img width="1000" src="readme_resources/make_bash.gif">
+</div>
+
 * If you use <kbd>make</kbd> command it will appear the ***./so_long*** executable file.
 * You can use <kbd>make bonus</kbd> command and it will appear ***./so_long_bonus*** executable file
+
 ```shell
 > make
 > make bonus
