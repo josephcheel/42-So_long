@@ -11,6 +11,7 @@
 <img align="center"  width="600" src="readme_resources/SoLongExample.gif">
 </div>
 <br>
+<br>
  <img align="right" width="150" src="readme_resources/Success.png">
  
 ### What is the the project about
