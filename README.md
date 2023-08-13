@@ -5,7 +5,7 @@
   </picture>
 </h1>
 
-> A project involving the creation of a ***small 2D game*** using a graphical library. Using MiniLibX, the 42 graphical library.
+> A project involving the creation of a ***small 2D game*** with a graphical library. Using MiniLibX, the 42 graphical library.
 
 <div align="center">
 <img align="center"  width="600" src="readme_resources/SoLongExample.gif">
