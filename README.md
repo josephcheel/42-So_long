@@ -1,9 +1,15 @@
-<h1 align="center">So_long | 42 Cursus 
+<h1 align="center"> So_long | 
+ <img alt="42 Logo" width=40 align="center" src="readme_resources/42_Logo.svg">
+ Cursus 
+
  <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-      Markdown/main/blockquotes/badge/light-theme/complete.svg">
   <img alt="Complete" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/complete.svg">
+ 
   </picture>
+  
 </h1>
+
 
 > A project involving the creation of a ***small 2D game*** with a graphical library. Using MiniLibX, the 42 graphical library.
 
