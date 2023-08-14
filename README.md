@@ -1,7 +1,7 @@
 <!--HEADER-->
 <h1 align="center"> So_long | 
  <picture>
-  <source media="(prefers-color-scheme: light)" srcset="readme_resources/42_Logo_White.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="readme_resources/42_Logo_White.svg">
   <img alt="42 Logo" width=40 align="center" src="readme_resources/42_Logo.svg">
  </picture>
  Cursus 
