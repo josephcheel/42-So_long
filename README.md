@@ -2,7 +2,7 @@
 <h1 align="center"> So_long | 
  <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/josephcheel/42-So_long/master/readme_resources/42_Logo_White.svg">
-  <img alt="42 Logo" width=40 align="center" src="https://raw.githubusercontent.com/josephcheel/42-So_long/master/readme_resources/42_Logo.svg">
+  <img alt="42" width=40 align="center" src="https://raw.githubusercontent.com/josephcheel/42-So_long/master/readme_resources/42_Logo.svg">
  </picture>
  Cursus 
   <img alt="Complete" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/complete.svg">
