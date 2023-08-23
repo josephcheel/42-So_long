@@ -19,15 +19,14 @@
 <br>
  <img align="right" width="150" src="https://github.com/josephcheel/readme/blob/main/resources/125_Success.png">
  
-### What is the the project about
+### What is the project about
 
- This project is about creating a 2D game, which you can interact with your keyboard! The task has two parts: the **mandatory** and the **bonus**. Each of these parts is compiled and execute separately. The bonus has the same features plus some extra.
+This project is focused on developing a 2D game that can be interacted with using your keyboard. The task is divided into two parts: the mandatory and the bonus. Each of these parts is compiled and executed separately. The bonus section includes the same features as the mandatory part, along with some additional enhancements.
 
 ## General Instrucctions
-
-* Makefile will compile your source files. Must have **'all'** and **'bonus'** rules for Mandatory and Bonus respectively. It must not relink.
-* Must use MiniLibX
-* Program should compile as follows:
+* Makefile will compile your source files. It must include 'all' and 'bonus' rules for the Mandatory and Bonus parts, respectively. It should not relink.
+* You are required to use MiniLibX for this project.
+* The program should be compiled using the following commands:
  
 ```shell
 > ./so_long map.ber
@@ -38,15 +37,15 @@
 >   <img alt="Warning" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/warning.svg">
 > </picture><br>
 >
-> Map must have the ***.ber*** extension
+> Maps must have the ***.ber*** extension
 
 ## Mandatory Instrucctions
-* Number of movements must be displayed in the shell.
-* ESC or <img align="center" src="https://github.com/josephcheel/readme/blob/main/resources/x-circle.svg"> must close the window and quit the program.
+* The number of movements must be displayed in the shell.
+* Pressing <kbd>ESC</kbd> or closing the window should result in quitting the program.
 
 <img align="right" width="150" src="https://github.com/josephcheel/readme/blob/main/resources/so_long/FileMapExample.png">
 
-* The map has to be constructed with 5 components: **walls**, **collectibles**(one minimum), **empty space**, **exit**(one minimum) and **player**(only one). These are the 5 Characters that a map is composed:
+* The map must be constructed using five components: **walls**, **collectibles** (at least one), **empty spaces**, **exits** (at least one), and **the player** (only one). These five characters compose the map: 
   * **0** for an empty space
   * **1** for a wall
   * **C** for a collectible
@@ -55,11 +54,11 @@
 
 <img align="right" width="200" src="https://github.com/josephcheel/readme/blob/main/resources/so_long/wasd_keys.png">
 
-* <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys must be used to move the main character:
-  * <kbd>W</kbd> to go up ↑
-  * <kbd>S</kbd> to go down ↓
-  * <kbd>D</kbd> to go right ➞
-  * <kbd>A</kbd> to go left ←
+* To move the main character, use the <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys:
+  * <kbd>W</kbd> to move up ↑
+  * <kbd>S</kbd> to move down ↓
+  * <kbd>D</kbd> to move right ➞
+  * <kbd>A</kbd> to move left ←
 
 ## Bonus Instrucctions
 
@@ -69,15 +68,15 @@
 * Display the movement count directly on screen instead of writing it in the shell.
  
 ### How to compile it
-> Compilation is done through makefile rules.
+> Compilation is managed through the Makefile rules.
 
 
 <div align="center">
 <img width="1000" src="https://github.com/josephcheel/readme/blob/main/resources/so_long/make_bash.gif">
 </div>
 
-* If you use <kbd>make</kbd> command it will appear the ***./so_long*** executable file.
-* You can use <kbd>make bonus</kbd> command and it will appear ***./so_long_bonus*** executable file
+* If you use <kbd>make</kbd> command, the ***./so_long*** executable file, will be generated.
+* You can use <kbd>make bonus</kbd> command to generate the ***./so_long_bonus*** executable file
 
 ```shell
 > make
