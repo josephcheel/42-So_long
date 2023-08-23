@@ -13,11 +13,11 @@
 > A project involving the creation of a ***small 2D game*** with a graphical library. Using MiniLibX, the 42 graphical library.
 
 <div align="center">
-<img align="center"  width="600" src="readme_resources/SoLongExample.gif">
+<img align="center"  width="600" src="https://github.com/josephcheel/readme/blob/main/resources/so_long/SoLongExample.gif">
 </div>
 <br>
 <br>
- <img align="right" width="150" src="readme_resources/Success.png">
+ <img align="right" width="150" src="https://github.com/josephcheel/readme/blob/main/resources/125_Success.png">
  
 ### What is the the project about
 
@@ -42,9 +42,9 @@
 
 ## Mandatory Instrucctions
 * Number of movements must be displayed in the shell.
-* ESC or <img align="center" src="readme_resources/x-circle.svg"> must close the window and quit the program.
+* ESC or <img align="center" src="https://github.com/josephcheel/readme/blob/main/resources/x-circle.svg"> must close the window and quit the program.
 
-<img align="right" width="150" src="readme_resources/FileMapExample.png">
+<img align="right" width="150" src="https://github.com/josephcheel/readme/blob/main/resources/so_long/FileMapExample.png">
 
 * The map has to be constructed with 5 components: **walls**, **collectibles**(one minimum), **empty space**, **exit**(one minimum) and **player**(only one). These are the 5 Characters that a map is composed:
   * **0** for an empty space
@@ -53,7 +53,7 @@
   * **E** for a map exit
   * **P** for the player’s starting position
 
-<img align="right" width="200" src="readme_resources/wasd_keys.png">
+<img align="right" width="200" src="https://github.com/josephcheel/readme/blob/main/resources/so_long/wasd_keys.png">
 
 * <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys must be used to move the main character:
   * <kbd>W</kbd> to go up ↑
@@ -73,7 +73,7 @@
 
 
 <div align="center">
-<img width="1000" src="readme_resources/make_bash.gif">
+<img width="1000" src="https://github.com/josephcheel/readme/blob/main/resources/so_long/make_bash.gif">
 </div>
 
 * If you use <kbd>make</kbd> command it will appear the ***./so_long*** executable file.
@@ -83,13 +83,3 @@
 > make
 > make bonus
 ```
-
-
-
-[//]: <> (<h3> <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/clfo781th000608l4lo1z8jb2/project/2664278" alt="jcheel-n's 42 so_long Score" /></a></h3>)
-
-[//]: <> (### | A project involving the creation of a small 2D game using a graphical library.)
-
-[//]: <> (#### How it works)
-
-[//]: <> (#### How to use it)
