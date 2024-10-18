@@ -96,7 +96,7 @@ void	move_down(t_map *map)
 		move_resume(map, x, y, DOWN);
 		if (map->array[y + 1][x] == 'E' && (map->c != 0 || map->exit == 1))
 			return ;
-			map->moves++;
+		map->moves++;
 		mlx_put_image_to_window(map->mlx, map->wnd, map->img.empty,
 			x * IMG_PXL, y * IMG_PXL);
 		map->array[y][x] = '0';

@@ -38,7 +38,7 @@ CP			=	cp -f
 #●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●#
 
 MDT_DIR		=	Mandatory/
-BONUS_DIR	=	bonus/
+BONUS_DIR	=	Bonus/
 
 SRC_DIR		=	src/
 OBJ_DIR		=	obj/

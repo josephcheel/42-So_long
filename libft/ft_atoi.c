@@ -32,9 +32,9 @@ int	ft_atoi(const char *str)
 		result = (result * 10) + (*str - 48);
 		str++;
 	}
-	if (result < -2147483648)
+	if (result < INT_MIN)
 		return (-1);
-	else if (result > 2147483647)
+	else if (result > INT_MAX)
 		return (0);
 	return (result * sign);
 }	
