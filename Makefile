@@ -17,8 +17,16 @@ NAME_BONUS	=	so_long_bonus
 #●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●#
 
 CC			=	gcc
-CFLAGS		=	-Wall -Werror -Wextra -g
-MLXFLAGS	=	-Lmlx -lmlx -framework OpenGL -framework AppKit
+CFLAGS		=	-Wall -Werror -Wextra -g $(SYSTEM)
+
+# System Detection
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S), Linux)
+	MLXFLAGS =  -Lmlx_Linux -lmlx_Linux -L ./mlx -Imlx_Linux -L ./libft -lft -lXext -lX11 -lm -lz
+endif
+ifeq ($(UNAME_S), Darwin)
+	MLXFLAGS	=	-Lmlx -lmlx -framework OpenGL -framework AppKit
+endif
 
 AR			=	ar rcs
 RM			=	rm -f
@@ -29,7 +37,7 @@ CP			=	cp -f
 #•❅──────✧❅✦❅✧──────❅••❅──────✧❅✦❅DIRECTORIES✦❅✧──────❅••❅──────✧❅✦❅✧──────❅•#
 #●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●#
 
-MDT_DIR		=	mandatory/
+MDT_DIR		=	Mandatory/
 BONUS_DIR	=	bonus/
 
 SRC_DIR		=	src/
@@ -79,7 +87,7 @@ $(OBJ_DIR)%.o : %.c Makefile
 	@make -sC mlx
 	@make -sC libft
 	@echo "$(WARN_COLOR)Compiling: $<$(NO_COLOR)"
-	@$(CC) -MT $@ -MMD -MP -c $(CFLAGS) $(INCLUDE) -Imlx -I mlx/mlx.h $< -o $@ 
+	@$(CC) -MT $@ -MMD -MP -c $(CFLAGS) $(INCLUDE) -Imlx   $< -o $@ 
 
 #●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●●○●○●○●○●○●○●○●○●○●#
 #•❅──────✧❅✦❅✧──────❅••❅──────✧❅✦❅✧─TARGET─✧❅✦❅✧──────❅••❅──────✧❅✦❅✧──────❅•#
@@ -88,13 +96,13 @@ $(OBJ_DIR)%.o : %.c Makefile
 all:		$(NAME)
 
 $(NAME):	$(OBJS)
-			@$(CC) $(CFLAGS) $(MLXFLAGS) $(LIBFT) $(OBJS) -o $(NAME)
+			@$(CC) $(CFLAGS)  $(LIBFT) $(OBJS) -o $(NAME) $(MLXFLAGS)
 			@echo "$(OK_COLOR)So Long Compiled!$(NO_COLOR)"
 
 bonus:		$(NAME_BONUS)
 
 $(NAME_BONUS): $(OBJS_BONUS)
-			@$(CC) $(CFLAGS) $(MLXFLAGS) $(LIBFT) $(OBJS_BONUS) -o $(NAME_BONUS)
+			@$(CC) $(CFLAGS)  $(LIBFT) $(OBJS_BONUS) -o $(NAME_BONUS) $(MLXFLAGS)
 			@echo "$(OK_COLOR)So Long Bonus Compiled!$(NO_COLOR)"
 clean:
 			@make clean -sC mlx
