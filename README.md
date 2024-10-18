@@ -77,6 +77,7 @@ This project is focused on developing a 2D game that can be interacted with usin
 * You can use <kbd>make bonus</kbd> command to generate the ***./so_long_bonus*** executable file
 
 ```shell
+> <install your mlx either Linux or MacOS in a folder called /mlx>
 > make
 > make bonus
 ```
